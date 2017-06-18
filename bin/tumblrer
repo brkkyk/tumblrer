@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'tumblrer'
+tumblrer = Tumblrer.new(ARGV[0], ARGV[1], ARGV[2])
+tumblrer.download
